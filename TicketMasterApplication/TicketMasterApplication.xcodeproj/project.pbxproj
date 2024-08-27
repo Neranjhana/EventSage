@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C72040862A03413300426032 /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = C72040852A03413300426032 /* SwiftUIX */; };
+		C72040892A0344C100426032 /* SimpleToast in Frameworks */ = {isa = PBXBuildFile; productRef = C72040882A0344C100426032 /* SimpleToast */; };
+		C73214EE29F073EE00665C3E /* TicketMasterApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73214ED29F073EE00665C3E /* TicketMasterApplicationApp.swift */; };
+		C73214F029F073EE00665C3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73214EF29F073EE00665C3E /* ContentView.swift */; };
+		C73214F229F073EF00665C3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73214F129F073EF00665C3E /* Assets.xcassets */; };
+		C73214F629F073EF00665C3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73214F529F073EF00665C3E /* Preview Assets.xcassets */; };
+		C732150029F073EF00665C3E /* TicketMasterApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73214FF29F073EF00665C3E /* TicketMasterApplicationTests.swift */; };
+		C732150A29F073EF00665C3E /* TicketMasterApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732150929F073EF00665C3E /* TicketMasterApplicationUITests.swift */; };
+		C732150C29F073EF00665C3E /* TicketMasterApplicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732150B29F073EF00665C3E /* TicketMasterApplicationUITestsLaunchTests.swift */; };
+		C732151929F07F9F00665C3E /* MyFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732151829F07F9F00665C3E /* MyFormView.swift */; };
+		C74E74F42A0202CA004C7863 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74E74F32A0202CA004C7863 /* FavoritesView.swift */; };
+		C7F0D3AA29FF326C005C2C89 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F0D3A929FF326C005C2C89 /* DetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C73214FC29F073EF00665C3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C73214E229F073ED00665C3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C73214E929F073EE00665C3E;
+			remoteInfo = TicketMasterApplication;
+		};
+		C732150629F073EF00665C3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C73214E229F073ED00665C3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C73214E929F073EE00665C3E;
+			remoteInfo = TicketMasterApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C720408A2A037E9400426032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C73214EA29F073EE00665C3E /* TicketMasterApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicketMasterApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73214ED29F073EE00665C3E /* TicketMasterApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketMasterApplicationApp.swift; sourceTree = "<group>"; };
+		C73214EF29F073EE00665C3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C73214F129F073EF00665C3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C73214F329F073EF00665C3E /* TicketMasterApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TicketMasterApplication.entitlements; sourceTree = "<group>"; };
+		C73214F529F073EF00665C3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C73214FB29F073EF00665C3E /* TicketMasterApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketMasterApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73214FF29F073EF00665C3E /* TicketMasterApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketMasterApplicationTests.swift; sourceTree = "<group>"; };
+		C732150529F073EF00665C3E /* TicketMasterApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketMasterApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C732150929F073EF00665C3E /* TicketMasterApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketMasterApplicationUITests.swift; sourceTree = "<group>"; };
+		C732150B29F073EF00665C3E /* TicketMasterApplicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketMasterApplicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C732151829F07F9F00665C3E /* MyFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFormView.swift; sourceTree = "<group>"; };
+		C74E74F32A0202CA004C7863 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		C759788329FFB5AD00C32DB9 /* TicketMasterApplication.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = TicketMasterApplication.xcodeproj; sourceTree = SOURCE_ROOT; };
+		C7F0D3A929FF326C005C2C89 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C73214E729F073EE00665C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72040892A0344C100426032 /* SimpleToast in Frameworks */,
+				C72040862A03413300426032 /* SwiftUIX in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73214F829F073EF00665C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C732150229F073EF00665C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C73214E129F073ED00665C3E = {
+			isa = PBXGroup;
+			children = (
+				C73214EC29F073EE00665C3E /* TicketMasterApplication */,
+				C73214FE29F073EF00665C3E /* TicketMasterApplicationTests */,
+				C732150829F073EF00665C3E /* TicketMasterApplicationUITests */,
+				C73214EB29F073EE00665C3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C73214EB29F073EE00665C3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C73214EA29F073EE00665C3E /* TicketMasterApplication.app */,
+				C73214FB29F073EF00665C3E /* TicketMasterApplicationTests.xctest */,
+				C732150529F073EF00665C3E /* TicketMasterApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C73214EC29F073EE00665C3E /* TicketMasterApplication */ = {
+			isa = PBXGroup;
+			children = (
+				C720408A2A037E9400426032 /* Info.plist */,
+				C74E74F32A0202CA004C7863 /* FavoritesView.swift */,
+				C759788329FFB5AD00C32DB9 /* TicketMasterApplication.xcodeproj */,
+				C73214EF29F073EE00665C3E /* ContentView.swift */,
+				C7F0D3A929FF326C005C2C89 /* DetailView.swift */,
+				C732151829F07F9F00665C3E /* MyFormView.swift */,
+				C73214ED29F073EE00665C3E /* TicketMasterApplicationApp.swift */,
+				C73214F129F073EF00665C3E /* Assets.xcassets */,
+				C73214F329F073EF00665C3E /* TicketMasterApplication.entitlements */,
+				C73214F429F073EF00665C3E /* Preview Content */,
+			);
+			path = TicketMasterApplication;
+			sourceTree = "<group>";
+		};
+		C73214F429F073EF00665C3E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C73214F529F073EF00665C3E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C73214FE29F073EF00665C3E /* TicketMasterApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				C73214FF29F073EF00665C3E /* TicketMasterApplicationTests.swift */,
+			);
+			path = TicketMasterApplicationTests;
+			sourceTree = "<group>";
+		};
+		C732150829F073EF00665C3E /* TicketMasterApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C732150929F073EF00665C3E /* TicketMasterApplicationUITests.swift */,
+				C732150B29F073EF00665C3E /* TicketMasterApplicationUITestsLaunchTests.swift */,
+			);
+			path = TicketMasterApplicationUITests;
+			sourceTree = "<group>";
+		};
+		C759788429FFB5AD00C32DB9 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C73214E929F073EE00665C3E /* TicketMasterApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C732150F29F073EF00665C3E /* Build configuration list for PBXNativeTarget "TicketMasterApplication" */;
+			buildPhases = (
+				C73214E629F073EE00665C3E /* Sources */,
+				C73214E729F073EE00665C3E /* Frameworks */,
+				C73214E829F073EE00665C3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicketMasterApplication;
+			packageProductDependencies = (
+				C72040852A03413300426032 /* SwiftUIX */,
+				C72040882A0344C100426032 /* SimpleToast */,
+			);
+			productName = TicketMasterApplication;
+			productReference = C73214EA29F073EE00665C3E /* TicketMasterApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C73214FA29F073EF00665C3E /* TicketMasterApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C732151229F073EF00665C3E /* Build configuration list for PBXNativeTarget "TicketMasterApplicationTests" */;
+			buildPhases = (
+				C73214F729F073EF00665C3E /* Sources */,
+				C73214F829F073EF00665C3E /* Frameworks */,
+				C73214F929F073EF00665C3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C73214FD29F073EF00665C3E /* PBXTargetDependency */,
+			);
+			name = TicketMasterApplicationTests;
+			productName = TicketMasterApplicationTests;
+			productReference = C73214FB29F073EF00665C3E /* TicketMasterApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C732150429F073EF00665C3E /* TicketMasterApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C732151529F073EF00665C3E /* Build configuration list for PBXNativeTarget "TicketMasterApplicationUITests" */;
+			buildPhases = (
+				C732150129F073EF00665C3E /* Sources */,
+				C732150229F073EF00665C3E /* Frameworks */,
+				C732150329F073EF00665C3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C732150729F073EF00665C3E /* PBXTargetDependency */,
+			);
+			name = TicketMasterApplicationUITests;
+			productName = TicketMasterApplicationUITests;
+			productReference = C732150529F073EF00665C3E /* TicketMasterApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C73214E229F073ED00665C3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C73214E929F073EE00665C3E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					C73214FA29F073EF00665C3E = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C73214E929F073EE00665C3E;
+					};
+					C732150429F073EF00665C3E = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C73214E929F073EE00665C3E;
+					};
+				};
+			};
+			buildConfigurationList = C73214E529F073ED00665C3E /* Build configuration list for PBXProject "TicketMasterApplication" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C73214E129F073ED00665C3E;
+			packageReferences = (
+				C72040842A03413300426032 /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+				C72040872A0344C100426032 /* XCRemoteSwiftPackageReference "SimpleToast" */,
+			);
+			productRefGroup = C73214EB29F073EE00665C3E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C759788429FFB5AD00C32DB9 /* Products */;
+					ProjectRef = C759788329FFB5AD00C32DB9 /* TicketMasterApplication.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C73214E929F073EE00665C3E /* TicketMasterApplication */,
+				C73214FA29F073EF00665C3E /* TicketMasterApplicationTests */,
+				C732150429F073EF00665C3E /* TicketMasterApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C73214E829F073EE00665C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73214F629F073EF00665C3E /* Preview Assets.xcassets in Resources */,
+				C73214F229F073EF00665C3E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73214F929F073EF00665C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C732150329F073EF00665C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C73214E629F073EE00665C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74E74F42A0202CA004C7863 /* FavoritesView.swift in Sources */,
+				C732151929F07F9F00665C3E /* MyFormView.swift in Sources */,
+				C7F0D3AA29FF326C005C2C89 /* DetailView.swift in Sources */,
+				C73214F029F073EE00665C3E /* ContentView.swift in Sources */,
+				C73214EE29F073EE00665C3E /* TicketMasterApplicationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73214F729F073EF00665C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C732150029F073EF00665C3E /* TicketMasterApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C732150129F073EF00665C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C732150A29F073EF00665C3E /* TicketMasterApplicationUITests.swift in Sources */,
+				C732150C29F073EF00665C3E /* TicketMasterApplicationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C73214FD29F073EF00665C3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C73214E929F073EE00665C3E /* TicketMasterApplication */;
+			targetProxy = C73214FC29F073EF00665C3E /* PBXContainerItemProxy */;
+		};
+		C732150729F073EF00665C3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C73214E929F073EE00665C3E /* TicketMasterApplication */;
+			targetProxy = C732150629F073EF00665C3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C732150D29F073EF00665C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C732150E29F073EF00665C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C732151029F073EF00665C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = TicketMasterApplication/TicketMasterApplication.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TicketMasterApplication/Preview Content\"";
+				DEVELOPMENT_TEAM = C5S3RQVLS5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TicketMasterApplication/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Use Asset Catalog";
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				"OTHER_CFLAGS[arch=*]" = "-Wl,-stack_size,10000000";
+				PRODUCT_BUNDLE_IDENTIFIER = PersonalProject.TicketMasterApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C732151129F073EF00665C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = TicketMasterApplication/TicketMasterApplication.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TicketMasterApplication/Preview Content\"";
+				DEVELOPMENT_TEAM = C5S3RQVLS5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TicketMasterApplication/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Use Asset Catalog";
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				"OTHER_CFLAGS[arch=*]" = "-Wl,-stack_size,10000000";
+				PRODUCT_BUNDLE_IDENTIFIER = PersonalProject.TicketMasterApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C732151329F073EF00665C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5S3RQVLS5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PersonalProject.TicketMasterApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicketMasterApplication.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TicketMasterApplication";
+			};
+			name = Debug;
+		};
+		C732151429F073EF00665C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5S3RQVLS5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PersonalProject.TicketMasterApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicketMasterApplication.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TicketMasterApplication";
+			};
+			name = Release;
+		};
+		C732151629F073EF00665C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5S3RQVLS5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PersonalProject.TicketMasterApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TicketMasterApplication;
+			};
+			name = Debug;
+		};
+		C732151729F073EF00665C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5S3RQVLS5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PersonalProject.TicketMasterApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TicketMasterApplication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C73214E529F073ED00665C3E /* Build configuration list for PBXProject "TicketMasterApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C732150D29F073EF00665C3E /* Debug */,
+				C732150E29F073EF00665C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C732150F29F073EF00665C3E /* Build configuration list for PBXNativeTarget "TicketMasterApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C732151029F073EF00665C3E /* Debug */,
+				C732151129F073EF00665C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C732151229F073EF00665C3E /* Build configuration list for PBXNativeTarget "TicketMasterApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C732151329F073EF00665C3E /* Debug */,
+				C732151429F073EF00665C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C732151529F073EF00665C3E /* Build configuration list for PBXNativeTarget "TicketMasterApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C732151629F073EF00665C3E /* Debug */,
+				C732151729F073EF00665C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C72040842A03413300426032 /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
+		C72040872A0344C100426032 /* XCRemoteSwiftPackageReference "SimpleToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sanzaru/SimpleToast";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C72040852A03413300426032 /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C72040842A03413300426032 /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+		C72040882A0344C100426032 /* SimpleToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C72040872A0344C100426032 /* XCRemoteSwiftPackageReference "SimpleToast" */;
+			productName = SimpleToast;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C73214E229F073ED00665C3E /* Project object */;
+}
